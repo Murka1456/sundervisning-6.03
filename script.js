@@ -38,8 +38,8 @@ if (isPresent) {
   console.log('person is away');
 }
 
-let closingHour = 22;
-let timeNow = 23;
+let closingHour = 21;
+let timeNow = 11;
 
 if (closingHour > timeNow) {
   console.log('Shop is open');
@@ -110,3 +110,11 @@ function unitConverter() {
 }
 
 displayBtn.addEventListener('click', unitConverter);
+ 
+if (hour<21) {
+  console.log("good day");
+ 
+}
+else{
+  console.log("good evening")
+}
